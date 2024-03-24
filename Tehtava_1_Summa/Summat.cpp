@@ -17,7 +17,6 @@ void count_sum(std::vector<int> &Vector,const int start, const int end)
 		sum += Vector[i];
 	}
 
-	//std::lock_guard<std::mutex> lock(g_i_mutex);
 	//this printed line gets mixed by racing threads sometimes
 	std::cout << start << "-" << end << " sum: " << sum << "\n";
 	calculated_sum += sum;
@@ -33,14 +32,12 @@ int main() {
 	int realSum = 0;
 	
 	int maxSize = 3450; //size of vector
-	//int no_Threads = 5;	//amount of threads
 
 	//Create vector  containing  random numbers (1-50)
 	for (int i = 0; i < maxSize;i++) {
 		int nro = rand() % 50 +1;
 		realSum += nro;
 		NumbersVector.push_back(nro);
-		/*std::cout << nro << "\n";*/
 	}
 
 	
