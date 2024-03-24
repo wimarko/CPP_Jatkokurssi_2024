@@ -10,6 +10,7 @@ Class_A::Class_A(int given_id)
 
 void Class_A::Perform(const int max)
 {
+	std::cout << id << " started\n";
 	int sum = 0;
 	/*long own_max = 9999999 * max;
 	std::cout << id<<" A Performing!\n";
@@ -22,5 +23,5 @@ void Class_A::Perform(const int max)
 		/*std::cout << id <<" " <<this<< " A Finished! " << sum << "\n";*/
 		
 	}
-	std::cout << id << " " << this << "Finished\n";
+	std::cout << id << ": " << this << " " << "Finished\n";
 }

@@ -12,7 +12,7 @@ std::condition_variable cv;
 
 class Semaphore {
 public:
-    Semaphore(int count) : count_(count) {}
+    Semaphore(int allowed_threads) : count_(allowed_threads) {}
 
     void acquire() {
         std::unique_lock<std::mutex> lock(mutex_);
@@ -55,7 +55,8 @@ int main2() {
 
     for (auto& task : tasks) {
         threadSemaphore.acquire(); // Acquire semaphore before creating thread
-        threads.emplace_back([&task, timeDelay, &threadSemaphore, &activeThreads]() {
+        threads.emplace_back([&task, timeDelay, 
+            &threadSemaphore, &activeThreads]() {
             task->Perform(timeDelay);
             threadSemaphore.release(); // Release semaphore after task is completed
             activeThreads--;
