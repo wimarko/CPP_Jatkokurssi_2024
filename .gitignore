@@ -106,3 +106,5 @@ x64/Debug/Tehtava_1_Summa.pdb
 x64/Debug/Tehtava_2_Tililta_nostaminen.pdb
 x64/Debug/Tehtava_3_Rinnakkaista_Pelin_Laskentaa.pdb
 *.vsidx
+
+*.tlog
