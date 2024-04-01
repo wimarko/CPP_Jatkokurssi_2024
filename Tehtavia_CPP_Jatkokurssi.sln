@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tehtava_2_Tililta_nostamine
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tehtava_3_Rinnakkaista_Pelin_Laskentaa", "Tehtava_3_Rinnakkaista_Pelin_Laskentaa\Tehtava_3_Rinnakkaista_Pelin_Laskentaa.vcxproj", "{5A888C8C-B24A-4A45-9D9F-EEB3EBA48323}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tehtava_4_Asynkronisilla_funktiokutsuilla", "Tehtava_4_Asynkronisilla_funktiokutsuilla\Tehtava_4_Asynkronisilla_funktiokutsuilla.vcxproj", "{717EAEDF-6976-44CC-AD89-D44B03555922}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tehtava_5_Taulukon_kaittely_standardikirjaston_avulla", "Tehtava_5_Taulukon_kaittely_standardikirjaston_avulla\Tehtava_5_Taulukon_kaittely_standardikirjaston_avulla.vcxproj", "{376C9DAA-A1C1-4BF1-BD38-0E12E9B5C20C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +45,22 @@ Global
 		{5A888C8C-B24A-4A45-9D9F-EEB3EBA48323}.Release|x64.Build.0 = Release|x64
 		{5A888C8C-B24A-4A45-9D9F-EEB3EBA48323}.Release|x86.ActiveCfg = Release|Win32
 		{5A888C8C-B24A-4A45-9D9F-EEB3EBA48323}.Release|x86.Build.0 = Release|Win32
+		{717EAEDF-6976-44CC-AD89-D44B03555922}.Debug|x64.ActiveCfg = Debug|x64
+		{717EAEDF-6976-44CC-AD89-D44B03555922}.Debug|x64.Build.0 = Debug|x64
+		{717EAEDF-6976-44CC-AD89-D44B03555922}.Debug|x86.ActiveCfg = Debug|Win32
+		{717EAEDF-6976-44CC-AD89-D44B03555922}.Debug|x86.Build.0 = Debug|Win32
+		{717EAEDF-6976-44CC-AD89-D44B03555922}.Release|x64.ActiveCfg = Release|x64
+		{717EAEDF-6976-44CC-AD89-D44B03555922}.Release|x64.Build.0 = Release|x64
+		{717EAEDF-6976-44CC-AD89-D44B03555922}.Release|x86.ActiveCfg = Release|Win32
+		{717EAEDF-6976-44CC-AD89-D44B03555922}.Release|x86.Build.0 = Release|Win32
+		{376C9DAA-A1C1-4BF1-BD38-0E12E9B5C20C}.Debug|x64.ActiveCfg = Debug|x64
+		{376C9DAA-A1C1-4BF1-BD38-0E12E9B5C20C}.Debug|x64.Build.0 = Debug|x64
+		{376C9DAA-A1C1-4BF1-BD38-0E12E9B5C20C}.Debug|x86.ActiveCfg = Debug|Win32
+		{376C9DAA-A1C1-4BF1-BD38-0E12E9B5C20C}.Debug|x86.Build.0 = Debug|Win32
+		{376C9DAA-A1C1-4BF1-BD38-0E12E9B5C20C}.Release|x64.ActiveCfg = Release|x64
+		{376C9DAA-A1C1-4BF1-BD38-0E12E9B5C20C}.Release|x64.Build.0 = Release|x64
+		{376C9DAA-A1C1-4BF1-BD38-0E12E9B5C20C}.Release|x86.ActiveCfg = Release|Win32
+		{376C9DAA-A1C1-4BF1-BD38-0E12E9B5C20C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

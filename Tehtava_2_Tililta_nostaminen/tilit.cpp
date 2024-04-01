@@ -14,7 +14,6 @@ void put_money(int amount, int times)
 		std::unique_lock<std::mutex>lck(mute);
 
 		account += amount;
-
 	}
 	
 }
@@ -26,7 +25,6 @@ void take_money( int amount, int times)
 		std::unique_lock<std::mutex>lck(mute);
 
 		account -= amount;
-
 	}
 }
 

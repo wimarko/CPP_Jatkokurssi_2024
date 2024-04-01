@@ -1,0 +1,4 @@
+﻿  Summat_async.cpp
+D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\Tehtava_4_Asynkronisilla_funktiokutsuilla\Summat_async.cpp(47,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\Tehtava_4_Asynkronisilla_funktiokutsuilla\Summat_async.cpp(75,68): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  Tehtava_4_Asynkronisilla_funktiokutsuilla.vcxproj -> D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\x64\Debug\Tehtava_4_Asynkronisilla_funktiokutsuilla.exe

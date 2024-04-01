@@ -44,7 +44,8 @@ int main() {
 	//"division" to chunks
 	int chunk_size = NumbersVector.size() / 4;
 
-	std::cout << "vector size: " << NumbersVector.size() << " ,chunk main size: " << chunk_size << "\n";
+	std::cout << "vector size: " << NumbersVector.size() <<
+		" ,chunk main size: " << chunk_size << "\n";
 	int start = 0;
 	int chunk_2_start = chunk_size;
 	int chunk_3_start = chunk_size * 2;
@@ -83,10 +84,14 @@ int main() {
 
 	//thread for each chunk-sum
 	//apparently need that std::ref to work (thanks chatgpt)
-	std::thread first(count_sum,std::ref(NumbersVector), start, chunk_2_start);
-	std::thread second(count_sum ,std::ref(NumbersVector), chunk_2_start, chunk_3_start);
-	std::thread third(count_sum, std::ref(NumbersVector), chunk_3_start, chunk_4_start);
-	std::thread fourth(count_sum,std::ref(NumbersVector), chunk_4_start, NumbersVector.size());
+	std::thread first(count_sum,std::ref(NumbersVector),
+		start, chunk_2_start);
+	std::thread second(count_sum ,std::ref(NumbersVector),
+		chunk_2_start, chunk_3_start);
+	std::thread third(count_sum, std::ref(NumbersVector),
+		chunk_3_start, chunk_4_start);
+	std::thread fourth(count_sum,std::ref(NumbersVector),
+		chunk_4_start, NumbersVector.size());
 
 
 	first.join();

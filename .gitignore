@@ -108,3 +108,5 @@ x64/Debug/Tehtava_3_Rinnakkaista_Pelin_Laskentaa.pdb
 *.vsidx
 
 *.tlog
+*.pdb
+*.ipch
