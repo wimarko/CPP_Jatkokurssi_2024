@@ -2,6 +2,7 @@
 #include <ios>
 #include <algorithm>
 #include <execution>
+#include <chrono>
 
 //pass by reference
 void IncreaseByOne(int& nro)
@@ -23,6 +24,16 @@ void IncreaseEachSeq(int array[], int size)
 o std::execution::seq
 o std::execution::par
 o std::execution::par_unseq*/
+
+void IncreaseEachPar(int array[], int size)
+{
+	std::for_each(std::execution::par, array, array + size, IncreaseByOne);
+}
+
+void IncreaseEachUnseq(int array[], int size)
+{
+	std::for_each(std::execution::par_unseq,array, array + size, IncreaseByOne);
+}
 
 int GetSum(int array[], int size)
 {
@@ -50,7 +61,7 @@ void PrintArray(int array[],int  size)
 
 int main()
 {
-	const int taulukon_koko = 200;
+	const int taulukon_koko = 111111;
 
 	int taulukko[taulukon_koko];
 
@@ -67,11 +78,90 @@ int main()
 	/*for (int nro : taulukko) {
 		std::cout << nro << "\n";
 	}*/
-	std::cout << "Increasing each in array" << "\n";
-	IncreaseEachSeq(taulukko, taulukon_koko);
+	std::cout << "Increasing each in array Seq" << "\n";
+	
 
-	std::cout << "total sum, after each inreased by one:"
+	auto start = std::chrono::high_resolution_clock::now();
+
+	IncreaseEachSeq(taulukko, taulukon_koko);
+	auto stop = std::chrono::high_resolution_clock::now();
+
+	auto duration =
+		std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+
+
+	/*auto duration =
+		std::chrono::duration_cast<std::chrono::microseconds>(stop - start);*/
+
+	auto microseconds = duration.count();
+	auto seconds = microseconds / 1000000;
+	microseconds %= 1000000;
+	/*auto milliseconds = microseconds / 1000;
+	microseconds %= 1000;*/
+
+	std::cout << "Tasks' duration: " << seconds << "." << microseconds << " seconds\n";
+
+	std::cout << "total sum, after each inreased by one, seq:"
 		<< GetSum(taulukko, sizeof(taulukko)/sizeof(int)) << "\n";
+
+
+	//PAR
+
+	 start = std::chrono::high_resolution_clock::now();
+	std::cout << "Increasing each in array Par" << "\n";
+	IncreaseEachPar(taulukko, taulukon_koko);
+
+	 stop = std::chrono::high_resolution_clock::now();
+
+	 duration =
+		std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+
+
+	/*auto duration =
+		std::chrono::duration_cast<std::chrono::microseconds>(stop - start);*/
+
+	 microseconds = duration.count();
+	seconds = microseconds / 1000000;
+	microseconds %= 1000000;
+	/*auto milliseconds = microseconds / 1000;
+	microseconds %= 1000;*/
+
+	std::cout << "Tasks' duration: " << seconds << "." << microseconds << " seconds\n";
+
+	std::cout << "total sum, after each inreased by one, seq:"
+		<< GetSum(taulukko, sizeof(taulukko) / sizeof(int)) << "\n";
+
+	std::cout << "total sum, after each inreased by one, par:"
+		<< GetSum(taulukko, sizeof(taulukko) / sizeof(int)) << "\n";
+
+	//PAR UNSEQ
+	std::cout << "Increasing each in array Unseq" << "\n";
+
+	start = std::chrono::high_resolution_clock::now();
+	IncreaseEachUnseq(taulukko, taulukon_koko);
+
+	stop = std::chrono::high_resolution_clock::now();
+
+	duration =
+		std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+
+
+	/*auto duration =
+		std::chrono::duration_cast<std::chrono::microseconds>(stop - start);*/
+
+	microseconds = duration.count();
+	seconds = microseconds / 1000000;
+	microseconds %= 1000000;
+	/*auto milliseconds = microseconds / 1000;
+	microseconds %= 1000;*/
+
+	std::cout << "Tasks' duration: " << seconds << "." << microseconds << " seconds\n";
+
+	std::cout << "total sum, after each inreased by one, seq:"
+		<< GetSum(taulukko, sizeof(taulukko) / sizeof(int)) << "\n";
+
+	std::cout << "total sum, after each inreased by one, unseq:"
+		<< GetSum(taulukko, sizeof(taulukko) / sizeof(int)) << "\n";
 
 	return 0;
 }

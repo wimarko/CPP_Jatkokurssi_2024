@@ -24,6 +24,7 @@
     <ProjectGuid>{376c9daa-a1c1-4bf1-bd38-0e12e9b5c20c}</ProjectGuid>
     <RootNamespace>Tehtava5Taulukonkaittelystandardikirjastonavulla</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Tehtava_5_Taulukon_kasittely_standardikirjaston_avulla</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
