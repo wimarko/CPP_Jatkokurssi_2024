@@ -1,3 +1,5 @@
-﻿  GameWorld.cpp
-D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\GameWorld.cpp(34,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+﻿  GameTaskA.cpp
+  GameWorldAsync.cpp
+D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\Tehtava_6_Pelin_laskentaa_Asynkronisilla_Funktiokutsuilla\GameWorldAsync.cpp(28,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
   Tehtava_6_Pelin_laskentaa_Asynkronisilla_Funktiokutsuilla.vcxproj -> D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\x64\Debug\Tehtava_6_Pelin_laskentaa_Asynkronisilla.exe

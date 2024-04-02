@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\Class_A.cpp">
+    <ClCompile Include="GameWorldAsync.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\Game_Task.cpp">
+    <ClCompile Include="GameTaskA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\GameWorld.cpp">
+    <ClCompile Include="GameTaskSuper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\Class_A.h">
+    <ClInclude Include="GameTaskSuper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\Game_Task.h">
+    <ClInclude Include="GameTaskA.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

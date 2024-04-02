@@ -128,13 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\Class_A.cpp" />
-    <ClCompile Include="..\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\GameWorld.cpp" />
-    <ClCompile Include="..\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\Game_Task.cpp" />
+    <ClCompile Include="GameTaskA.cpp" />
+    <ClCompile Include="GameTaskSuper.cpp" />
+    <ClCompile Include="GameWorldAsync.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\Class_A.h" />
-    <ClInclude Include="..\Tehtava_3_Rinnakkaista_Pelin_Laskentaa\Game_Task.h" />
+    <ClInclude Include="GameTaskA.h" />
+    <ClInclude Include="GameTaskSuper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
