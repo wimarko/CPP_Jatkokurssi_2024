@@ -24,9 +24,6 @@ int main() {
 	int amount_of_tasks = 30;
 
 
-
-	int number_of_tasks = tasks.size();
-
 	//create "Tasks"-Class_As, give each an id  int(i)
 	for (int i = 0; i < amount_of_tasks; i++) {
 		tasks.emplace_back(std::make_unique<GameTaskA>(i));
