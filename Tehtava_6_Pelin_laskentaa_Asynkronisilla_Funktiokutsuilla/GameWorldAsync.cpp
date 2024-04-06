@@ -24,7 +24,7 @@ int main() {
 	int amount_of_tasks = 30;
 
 
-	//create "Tasks"-Class_As, give each an id  int(i)
+	//create "Tasks", give each an id  int(i)
 	for (int i = 0; i < amount_of_tasks; i++) {
 		tasks.emplace_back(std::make_unique<GameTaskA>(i));
 	}
@@ -32,7 +32,7 @@ int main() {
 	//auto ~ std::chrono.... k::time_point makes it shorter
 	auto start = high_resolution_clock::now();
 
-	//Add each task to threads-vector
+	//Add each task to async vector
 	for (auto& task : tasks)
 	{
 		futuresVector.emplace_back(std::async(std::launch::async, [&task, timeDelay]() {
