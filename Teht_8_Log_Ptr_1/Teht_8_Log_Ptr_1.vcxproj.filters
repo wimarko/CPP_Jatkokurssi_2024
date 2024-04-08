@@ -18,18 +18,12 @@
     <ClInclude Include="SimpleClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Log_Ptr.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SimpleClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Program.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Log_Ptr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

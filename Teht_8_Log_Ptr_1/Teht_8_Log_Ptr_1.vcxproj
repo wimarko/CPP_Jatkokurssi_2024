@@ -128,11 +128,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Log_Ptr.h" />
     <ClInclude Include="SimpleClass.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Log_Ptr.cpp" />
     <ClCompile Include="Program.cpp" />
     <ClCompile Include="SimpleClass.cpp" />
   </ItemGroup>
