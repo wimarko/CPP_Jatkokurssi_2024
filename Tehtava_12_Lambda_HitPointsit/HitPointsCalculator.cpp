@@ -71,22 +71,12 @@ int main()
 	PrintVector(EnemyHitpoints);
 
 	CauseDamageToAll(EnemyHitpoints, lightningBoltDamage);
-	//EnemyHitpoints[0] =TakeDamage(EnemyHitpoints[0],100);
-
-	/*std::for_each(EnemyHitpoints.begin(),EnemyHitpoints.end(),TakeDamage(100);*/
-
 
 	std::cout << "Hitpoints:\n";
 	PrintVector(EnemyHitpoints);
 
 
 	//lambdaa
-	/*std::cout << "lambda for take damage for_each\n";
-	std::for_each(EnemyHitpoints.begin(), EnemyHitpoints.end(),
-		[](int& hitPoints)
-		{TakeDamage(hitPoints, 100);});
-	std::cout << "Hitpoints:\n";*/
-
 	//the proper lambda..
 	//int&hitPoints references is used to reference EnemyHitpoints-int
 	std::for_each(EnemyHitpoints.begin(), EnemyHitpoints.end(),
@@ -98,7 +88,7 @@ int main()
 	PrintVector(EnemyHitpoints);
 
 
-	std::cout << "Named Lambda damage\n";
+	std::cout << "after named Lambda damage\n";
 	auto lamda_cause_damage = [&lightningBoltDamage](int& hp)
 		{
 			hp = std::max(0, hp - lightningBoltDamage);
@@ -106,6 +96,11 @@ int main()
 
 	std::for_each(EnemyHitpoints.begin(), EnemyHitpoints.end(), lamda_cause_damage);
 
+	PrintVector(EnemyHitpoints);
+
+	std::cout << "sorted enemy healths\n";
+	//sort from greatest to smallest //criteria must be a lambda function :o
+	std::sort(EnemyHitpoints.begin(), EnemyHitpoints.end(), std::greater<int>());
 	PrintVector(EnemyHitpoints);
 
 
