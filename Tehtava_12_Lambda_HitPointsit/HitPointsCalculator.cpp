@@ -4,14 +4,14 @@
 #include <algorithm>
 #include <functional>
 
-
+//print values (healthpoints) 
 void PrintVector(const std::vector<int>& Vector)
 {
 	for (int i = 0; i < Vector.size(); i++)
 	{
 		std::cout << Vector[i] << " ";
 	}
-	std::cout << "\n";
+	std::cout << "\n\n";
 }
 
 //no const vector - because gets modified
@@ -45,14 +45,10 @@ void CauseDamageToAll(std::vector<int>& targetHealths, int damage)
 			damage));
 }
 
+//create vector of enemies' health points
 std::vector<int> CreateEnemies()
 {
 	std::vector<int> Enemies{ 55,121,222,323,424, 525, 626, 727 };
-
-	//for (int i = 90; i < 111; i++)
-	//{
-	//	Enemies.push_back(i);
-	//}
 
 	std::default_random_engine rng;
 
@@ -64,6 +60,8 @@ std::vector<int> CreateEnemies()
 int main()
 {
 	
+
+	int lightningBoltDamage = 100; //damage caused as parameter
 	std::vector<int> EnemyHitpoints = CreateEnemies();
 
 	PrintVector(EnemyHitpoints);
@@ -72,7 +70,7 @@ int main()
 	std::cout << "Hitpoints:\n";
 	PrintVector(EnemyHitpoints);
 
-	CauseDamageToAll(EnemyHitpoints, 100);
+	CauseDamageToAll(EnemyHitpoints, lightningBoltDamage);
 	//EnemyHitpoints[0] =TakeDamage(EnemyHitpoints[0],100);
 
 	/*std::for_each(EnemyHitpoints.begin(),EnemyHitpoints.end(),TakeDamage(100);*/
@@ -80,6 +78,36 @@ int main()
 
 	std::cout << "Hitpoints:\n";
 	PrintVector(EnemyHitpoints);
+
+
+	//lambdaa
+	/*std::cout << "lambda for take damage for_each\n";
+	std::for_each(EnemyHitpoints.begin(), EnemyHitpoints.end(),
+		[](int& hitPoints)
+		{TakeDamage(hitPoints, 100);});
+	std::cout << "Hitpoints:\n";*/
+
+	//the proper lambda..
+	//int&hitPoints references is used to reference EnemyHitpoints-int
+	std::for_each(EnemyHitpoints.begin(), EnemyHitpoints.end(),
+		[&lightningBoltDamage](int& hitPoints)
+		{ 
+			hitPoints = std::max(0, hitPoints - lightningBoltDamage);
+		});
+	std::cout << "Hitpoints after lambda:\n";
+	PrintVector(EnemyHitpoints);
+
+
+	std::cout << "Named Lambda damage\n";
+	auto lamda_cause_damage = [&lightningBoltDamage](int& hp)
+		{
+			hp = std::max(0, hp - lightningBoltDamage);
+		};
+
+	std::for_each(EnemyHitpoints.begin(), EnemyHitpoints.end(), lamda_cause_damage);
+
+	PrintVector(EnemyHitpoints);
+
 
 	return 0;
 }
