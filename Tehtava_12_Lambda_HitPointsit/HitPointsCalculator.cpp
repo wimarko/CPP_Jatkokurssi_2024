@@ -21,22 +21,38 @@ int TakeDamage(int &hitPoints,const int damage)
 		return hitPoints;
 }
 
+void TakeHundredDamage(int& currentHealth)
+{
+	currentHealth = TakeDamage(currentHealth, 100);
+}
+
+void CauseHundredDamageToAll(std::vector<int>& targetHealths)
+{
+	std::cout << "Causing 100 damage to all\n";
+	std::for_each(targetHealths.begin(), targetHealths.end()
+		, TakeHundredDamage);
+}
+
+
+//a function object apparently
 void CauseDamageToAll(std::vector<int>& targetHealths, int damage)
 {
+	std::cout << "Cause given amount (100) of damage to all\n";
 	std::for_each(targetHealths.begin(), targetHealths.end(),
-		std::bind(TakeDamage,
+		std::bind
+		(TakeDamage,
 			std::placeholders::_1,
 			damage));
 }
 
 std::vector<int> CreateEnemies()
 {
-	std::vector<int> Enemies{ };
+	std::vector<int> Enemies{ 55,121,222,323,424, 525, 626, 727 };
 
-	for (int i = 90; i < 111; i++)
-	{
-		Enemies.push_back(i);
-	}
+	//for (int i = 90; i < 111; i++)
+	//{
+	//	Enemies.push_back(i);
+	//}
 
 	std::default_random_engine rng;
 
@@ -50,6 +66,10 @@ int main()
 	
 	std::vector<int> EnemyHitpoints = CreateEnemies();
 
+	PrintVector(EnemyHitpoints);
+
+	CauseHundredDamageToAll(EnemyHitpoints);
+	std::cout << "Hitpoints:\n";
 	PrintVector(EnemyHitpoints);
 
 	CauseDamageToAll(EnemyHitpoints, 100);
