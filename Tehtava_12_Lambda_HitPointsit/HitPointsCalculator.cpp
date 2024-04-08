@@ -100,7 +100,11 @@ int main()
 
 	std::cout << "sorted enemy healths\n";
 	//sort from greatest to smallest //criteria must be a lambda function :o
-	std::sort(EnemyHitpoints.begin(), EnemyHitpoints.end(), std::greater<int>());
+	std::sort(EnemyHitpoints.begin(), EnemyHitpoints.end(),
+		[](const int& firstH, const int& secondH)
+		{//criteria here
+			return firstH > secondH;
+		});
 	PrintVector(EnemyHitpoints);
 
 
