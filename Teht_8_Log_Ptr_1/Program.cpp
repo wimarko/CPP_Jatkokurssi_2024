@@ -63,7 +63,10 @@ public:
         _ptr = ptr;
         _counter = new Counter();
         (*_counter)++;
-  
+        
+
+
+        // vois testata std_puttime timestampin sijaan
         std::cout << GetTimestamp() << " omistajuus siirretty " << _ptr << "\n";
         std::cout << "counter: "<<_counter->Get() << "\n";
     }

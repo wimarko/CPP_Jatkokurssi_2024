@@ -62,6 +62,7 @@ int main()
 	
 
 	int lightningBoltDamage = 100; //damage caused as parameter
+
 	std::vector<int> EnemyHitpoints = CreateEnemies();
 
 	PrintVector(EnemyHitpoints);
@@ -80,7 +81,7 @@ int main()
 	//the proper lambda..
 	//int&hitPoints references is used to reference EnemyHitpoints-int
 	std::for_each(EnemyHitpoints.begin(), EnemyHitpoints.end(),
-		[&lightningBoltDamage](int& hitPoints)
+		[lightningBoltDamage](int& hitPoints)  //ei tarvii &-refiä lightningBoltDamageen..
 		{ 
 			hitPoints = std::max(0, hitPoints - lightningBoltDamage);
 		});
@@ -88,15 +89,16 @@ int main()
 	PrintVector(EnemyHitpoints);
 
 
-	std::cout << "after named Lambda damage\n";
-	auto lamda_cause_damage = [&lightningBoltDamage](int& hp)
+	//Named Lambda?
+	auto lamda_cause_damage = [lightningBoltDamage](int& hp) //ei tarvii &-refiä lightningBoltDamageen..
 		{
 			hp = std::max(0, hp - lightningBoltDamage);
 		};
 
 	std::for_each(EnemyHitpoints.begin(), EnemyHitpoints.end(), lamda_cause_damage);
-
+	std::cout << "after named Lambda damage\n";
 	PrintVector(EnemyHitpoints);
+
 
 	std::cout << "sorted enemy healths\n";
 	//sort from greatest to smallest //criteria must be a lambda function :o
