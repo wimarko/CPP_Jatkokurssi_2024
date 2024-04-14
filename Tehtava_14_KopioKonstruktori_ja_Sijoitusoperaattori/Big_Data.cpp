@@ -46,7 +46,7 @@ public :
 	}
 
 	// Move Assignment Operator 
-	Big_Data& operator= (Big_Data&& rhs)
+	Big_Data& operator= (Big_Data&& rhs) noexcept
 	{
 		free(_memory_pointer);
 
