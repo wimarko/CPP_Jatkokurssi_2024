@@ -20,11 +20,12 @@
 #include <algorithm> // (std::find) std::sort
 #include <bitset>
 
+
 inline int is_straight(int* k);
 inline int is_straight_table(int* k);
 void Printtaa(int* k, int size);
 
-std::bitset<14> cards_vector;
+std::bitset<15> cards_vector;
 
 int main()
 {
@@ -138,12 +139,15 @@ inline int is_straight(int* k)
 
 inline int is_straight_table(int* k)
 {
-
+	//tyhjennä bittivektori
+	cards_vector.reset();
 	
+	//pitää ottaa arvot k-kädestä..
 	for (int i = 0; i < 5; i++)
 	{
-		cards_vector.set(i);
+		cards_vector.set(k[i]);
 	}
+
 	if (cards_vector.test(2)) {
 		if (cards_vector.test(13))
 		{
@@ -151,13 +155,35 @@ inline int is_straight_table(int* k)
 		}
 	}
 
-	for (int i = 0; i < 14-1; i++)
+	////printtaa bittivektori..
+	//for (int i = 0; i < 15; i++)
+	//{
+	//	std::cout << cards_vector.test(i) << " ";
+
+	//}
+	//std::cout << std::endl;
+	//otetaan pienimmän arvon indeksi..
+	int first_index = -1;
+	for (int i = 0; i < 16; i++)
 	{
-		if (cards_vector.test(i) && cards_vector.test(i + 1) && cards_vector.test(i + 2) && cards_vector.test(i + 3) && cards_vector.test(i + 4))
+		if (cards_vector.test(i))
 		{
-			return 1;
+			first_index = i;
+			break;
 		}
 	}
+	//pienin arvo on jo niin suuri, ettei voida saada suoraa
+	if (first_index > 10) { return 0; }
+
+	if (cards_vector.test(first_index + 1) && cards_vector.test(first_index + 2) && cards_vector.test(first_index + 3) && cards_vector.test(first_index + 4))
+	{
+		return 1;
+	}
+	/*for (int i = first_index+1; i < first_index + 3;i++)
+	{
+		if()
+	}*/
+
 
 	return 0;
 }
