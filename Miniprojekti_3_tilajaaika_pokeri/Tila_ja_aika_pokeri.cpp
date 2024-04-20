@@ -18,11 +18,13 @@
 #include <time.h>
 #include <iostream>
 #include <algorithm> // (std::find) std::sort
+#include <bitset>
 
 inline int is_straight(int* k);
+inline int is_straight_table(int* k);
 void Printtaa(int* k, int size);
 
-
+std::bitset<14> cards_vector;
 
 int main()
 {
@@ -48,7 +50,6 @@ int main()
 	clock_t t1, t2;
 
 	t1 = clock();
-	
 	suoria = 0;
 	// //katsoo onko suora jokaiselle mahdolliselle pokerikädlle
 	for (k0 = 0; k0 < 52; ++k0) {
@@ -70,9 +71,10 @@ int main()
 						k[2] = (k2 % 13) + 2;
 						k[3] = (k3 % 13) + 2;
 						k[4] = (k4 % 13) + 2;
-						if (is_straight(k))
-							++suoria;
-					}
+						/*if (is_straight(k))
+							++suoria;*/
+					}	if (is_straight_table(k))
+						++suoria;
 				}
 			}
 		}
@@ -100,8 +102,6 @@ int main()
 */
 inline int is_straight(int* k)
 {
-	// TODO
-	/*int* kasi[5];*/
 
 	//sorttaa ekaksi.. ja kato onko 0 indeksi 2, jos on, niin jos on 14 = 1
 	std::sort(k, k+5);
@@ -131,10 +131,35 @@ inline int is_straight(int* k)
 //kato onko kakkosta
 	//jos on, ja on 14, laita se ykköseen..?
 
-//
 
-
+	//jos ei lopeteta aikaisemmin, käsi on suora, palautetaan 1
 	return 1;
+}
+
+inline int is_straight_table(int* k)
+{
+
+	
+	for (int i = 0; i < 5; i++)
+	{
+		cards_vector.set(i);
+	}
+	if (cards_vector.test(2)) {
+		if (cards_vector.test(13))
+		{
+			cards_vector.set(0);
+		}
+	}
+
+	for (int i = 0; i < 14-1; i++)
+	{
+		if (cards_vector.test(i) && cards_vector.test(i + 1) && cards_vector.test(i + 2) && cards_vector.test(i + 3) && cards_vector.test(i + 4))
+		{
+			return 1;
+		}
+	}
+
+	return 0;
 }
 
 void Printtaa(int* k, int size)
