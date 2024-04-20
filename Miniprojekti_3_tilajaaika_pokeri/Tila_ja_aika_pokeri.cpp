@@ -52,7 +52,7 @@ int main()
 
 	t1 = clock();
 	suoria = 0;
-	// //katsoo onko suora jokaiselle mahdolliselle pokerikädlle
+	 //katsoo onko suora jokaiselle mahdolliselle pokerikädlle
 	for (k0 = 0; k0 < 52; ++k0) {
 		for (k1 = 0; k1 < 52; ++k1) {
 			if (k1 == k0)continue;
@@ -74,15 +74,20 @@ int main()
 						k[4] = (k4 % 13) + 2;
 						/*if (is_straight(k))
 							++suoria;*/
-					}	if (is_straight_table(k))
-						++suoria;
-				}
+						if (is_straight_table(k))
+							++suoria;
+					}
+					}	
 			}
 		}
 	}
-	////omaa testausta
-	//int kasi[5] = { 4, 2, 3, 14, 13 };//oma testikäsi
-	//is_straight(kasi);
+#pragma region omaa_testausta
+	//////omaa testausta
+	//int kasi[5] = { 5, 3,2, 4, 6};//oma testikäsi
+	////is_straight(kasi);
+	//if (is_straight_table(kasi)) ++suoria;
+
+#pragma endregion
 	t2 = clock();
 	printf("Suoria     : %d kpl (oikea arvo 1228800)\n", suoria);
 	printf("Aikaa kului: %.1fs\n", (t2 - t1) / (float)CLOCKS_PER_SEC);
@@ -125,17 +130,11 @@ inline int is_straight(int* k)
 	}
 	//1. ajo kesti 70.4 sek, 2. ajo 71.7 sek
 
-
-//Bittitaulukko?
-//pitää olla globaali lista, koko 14, booleaneja?
-
-//kato onko kakkosta
-	//jos on, ja on 14, laita se ykköseen..?
-
-
 	//jos ei lopeteta aikaisemmin, käsi on suora, palautetaan 1
 	return 1;
 }
+
+
 
 inline int is_straight_table(int* k)
 {
@@ -147,11 +146,12 @@ inline int is_straight_table(int* k)
 	{
 		cards_vector.set(k[i]);
 	}
-
+	// korttien numeroarvot indekseinä.. 1 on ässä, kuten 14
 	if (cards_vector.test(2)) {
-		if (cards_vector.test(13))
+		if (cards_vector.test(14))
 		{
-			cards_vector.set(0);
+			cards_vector.set(1);
+			cards_vector.reset(14);
 		}
 	}
 
@@ -163,34 +163,40 @@ inline int is_straight_table(int* k)
 	//}
 	//std::cout << std::endl;
 	//otetaan pienimmän arvon indeksi..
+	//bool index_found = false;
 	int first_index = -1;
-	for (int i = 0; i < 16; i++)
+	for (int i = 1; i < 15; i++)
 	{
+		
 		if (cards_vector.test(i))
 		{
 			first_index = i;
+			/*index_found = true;*/
 			break;
 		}
+		
 	}
-	//pienin arvo on jo niin suuri, ettei voida saada suoraa
+
+	/*std::cout << "indexi on " << first_index << "\n";*/
+
+	////pienin arvo on jo niin suuri, ettei voida saada suoraa
 	if (first_index > 10) { return 0; }
 
-	if (cards_vector.test(first_index + 1) && cards_vector.test(first_index + 2) && cards_vector.test(first_index + 3) && cards_vector.test(first_index + 4))
+	if (cards_vector.test(first_index + 1) && 
+		cards_vector.test(first_index + 2) && 
+		cards_vector.test(first_index + 3) && 
+		cards_vector.test(first_index + 4))
 	{
 		return 1;
 	}
-	/*for (int i = first_index+1; i < first_index + 3;i++)
-	{
-		if()
-	}*/
-
-
+	//1. ajo aika 40.2 sek, 2. ajo 39.4 sek
 	return 0;
 }
 
 void Printtaa(int* k, int size)
 {
-	std::cout << "koko: " << size << "\n";
+	std::sort(k, k+size);
+	/*std::cout << "koko: " << size << "\n";*/
 	for (int i = 0; i < size; i++)
 	{
 		std::cout << k[i] << " ";
