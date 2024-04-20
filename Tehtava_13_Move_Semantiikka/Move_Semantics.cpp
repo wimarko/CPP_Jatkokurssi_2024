@@ -2,14 +2,15 @@
 #include <iostream>
 #include <vector>
 
+
 int main()
 {
 	std::string sv1_1 = "kissa";
 
-	std::string sv1_2 = "";
+	std::string sv1_2;   //näin, ei = "";
 
 	std::string sv2_1 = "kissa";
-	std::string sv2_2 = "";
+	std::string sv2_2; // ei  = "";
 
 	//a)
 	/*Sijoita s1:n arvoksi s2. Tutki debuggerilla tilannetta ennen tai jälkeen sijoituksen. Yritä löytää
@@ -18,8 +19,13 @@ int main()
 	sv1_1 = sv1_2;  //eli 1:n arvoksi tulee sama arvo kuin 2:lla eli tyhjä..
 	sv2_2 = sv2_1;	//tyhjä merkkijono saa kissa-merkkijonon..
 
-	std::cout <<"a) "<<sv1_1 << ":" << sv1_2 << ":" << sv2_1 << ":" << sv2_2 << "\n";
+	std::cout <<"a) "<<&sv1_1 << ":" << &sv1_2 << ":" << &sv2_1 << ":" << &sv2_2 << "\n";
+	std::cout << "done\n";
 
+	/*
+	tarkoitettu tapa: kissa kopioidaan tyhjälle stringille:
+	Jos stringin on tarpeeksi pitkä, niin se allokoidaan jonnekin, muussa tapauksessa ei tarvitse...??
+	*/
 	
 	/*b) Sijoita s1:n arvoksi s2, mutta muuta s2 ensin rvalue-referenssiksi (std::move). Tutki debuggerilla
 tilannetta ennen tai jälkeen sijoituksen. Yritä löytää std::string-olioiden sisältä osoitin varsinaiseen
@@ -32,9 +38,11 @@ merkkijonodataan. Mitä huomaat?*/
 	std::string sv4_1 = "kissa";
 	std::string sv4_2 = "";
 
-	sv3_2 = std::move(sv3_2);
+	sv3_1 = std::move(sv3_2);
 
 	sv4_2 = std::move(sv4_1);
+
+	//osoite meneekin s2:lle
 
 
 
@@ -50,8 +58,8 @@ merkkijonodataan. Mitä huomaat?*/
 	merkkijonot.push_back(std::move(s32));
 
 
-
-	std::cout << "done\n";
+	//pushin jälkeen alkuperäinen stringi on tyhjä.. voi oll osoitin vielä jonnekin?
+	
 	std::cout << "done2\n";
 	return 0;
 }

@@ -53,6 +53,7 @@ public :
 		//varastaminen
 		_memory_pointer = rhs._memory_pointer;
 		_size = rhs._size;
+		rhs._size = 0;  //t‰n viel‰ vois tehd‰
 
 		//alkup. pointterin resetointi
 		rhs._memory_pointer = nullptr;
@@ -76,6 +77,7 @@ public :
 		_size = rhs._size;
 		memcpy(_memory_pointer, rhs._memory_pointer, _size);
 
+
 		return *this;
 	}
 
@@ -86,7 +88,7 @@ public :
 
 private:
 	void* _memory_pointer;
-	unsigned int _size;
+	unsigned int _size; //c++, pit‰‰ pit‰‰ lukua kuinka iso oikeasti on..
 };
 
 int main()
@@ -101,7 +103,7 @@ int main()
 	a = b;
 	std::cout << "a:address: " << &a << "\n";
 	std::cout << "b:address: " << &b << "\n";
-
+	std::cout<<"\n C : \n";
 	Big_Data c(1024);
 	std::cout << "c:size: " << c.GetSize() << "\n";
 	std::cout << "c:address: " << &c << "\n";

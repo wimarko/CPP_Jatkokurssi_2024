@@ -30,6 +30,16 @@
 *.exe
 *.out
 *.app
+*.tlog
+*.visdx
+*.ipx
+*.log
+*.vcxproj
+*.vcxproj.*
+*.idb
+*.recipe
+*.ilk
+
 .vs/Tehtavia_CPP_Jatkokurssi/FileContentIndex/160f12ab-2347-4f90-bf40-701742cc6acf.vsidx
 .vs/Tehtavia_CPP_Jatkokurssi/FileContentIndex/716c92aa-026e-42d5-88ec-39e9c27bf10e.vsidx
 .vs/Tehtavia_CPP_Jatkokurssi/FileContentIndex/7e94dc19-8f3d-4409-9b32-27c432e8fec5.vsidx
