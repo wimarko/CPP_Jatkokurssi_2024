@@ -118,7 +118,8 @@ void InitializeAssets()
 	b2PolygonShape Shape;
 
 	// Box2D works in meters so convert 'SizeHalf' from a size in pixels to a size in meters
-	Shape.SetAsBox(PixelToMeter(SizeHalf.x), PixelToMeter(SizeHalf.y), PixelToMeter(b2Vec2(0.0f, 0.0f)), 0.0f);
+	Shape.SetAsBox(PixelToMeter(SizeHalf.x), PixelToMeter(SizeHalf.y),
+		PixelToMeter(b2Vec2(0.0f, 0.0f)), 0.0f);
 
 	b2FixtureDef FixtureDefinition;
 	FixtureDefinition.shape = &Shape;
