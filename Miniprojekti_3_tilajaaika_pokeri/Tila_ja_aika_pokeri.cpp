@@ -28,10 +28,29 @@
 inline int is_straight(int* k);
 inline int save_hand_to_map(int* k);
 inline int is_straight_bit(int* k);
+inline int new_straight_bitcheck(int* k);
 void Printtaa(int* k, int size);
-
 std::bitset<15> cards_vector;
 std::unordered_map<std::bitset<15>, bool> table;
+
+
+/*
+alustetaan: short table{6xxxx} 16bittisten yhdistelmien määrä (joka bitin paikan indeksi vastaa kyseistä korttia(65536) tai char käy myös (short oli näyttäjällä)
+
+sitten laitetaan short cards (alkaa paikasta toisessa laidassa 5 peräkkäistä (toisen äärilaidan kortit)on päällä, sitten siirretään loopissa yhdellä toiseen suuntaan kaikkia tms..
+sitten vielä lisätään jos bitit 2,3,4,5, ja ässä, missä liekään päällä
+kaikki muut jää pois päältä
+*/
+
+
+char hand_table[65536] = { }; //kaikki nollia
+
+//ChatGPT kertoi miten bitwise operaatiolla:
+
+uint16_t straight_hand = 15872;  //0011 1110 0000 0000  -> 14,13,12, 11,10 bits on, others off
+
+//iterate through all positions until to 6,5,4,3,2 and add to array
+
 
 int main()
 {
@@ -55,11 +74,43 @@ int main()
 	int suoria; /* Suorien lkm*/
 	int talletettuja_suoria = 0;
 
-	clock_t t1, t2, ta, tb;
+	clock_t t1, t2;
 
 	suoria = 0;
+	int size = 1;
+	////open mallia:
+// 2^16 mahdollisuutta = 65536!
 
 
+////0x001f   - 02000 ?
+//for (straight_mask)
+//
+// 
+// kun katotaan onko siellä..
+//h |= 0x1 << k[0] - 2;
+//h |= 0x1 << [1] - 2;  jne jne 
+	std::cout << "aletaan suorien talletus\n";
+	for (int i = 0; i <= 8; ++i)
+	{
+		hand_table[straight_hand] = 1;		//mark the pattern in the array
+
+		straight_hand >>= 1;		// RIght-shift the bit pattern by 1 position
+	}
+
+ 
+
+	hand_table[8222] = 1;  //5,4,3,2,1 (missä ässä on ykklönen, lisätään myös
+
+	/*for (int i = 0; i < 65536; ++i) {
+		if (hand_table[i])
+		{
+			std::cout<< i << " = " << hand_table[i] << std::endl;
+		}
+		
+	}
+	return 0;*/
+
+	std::cout << "aletaan tarkistus\n";
 	t1 = clock();
 	//nyt vasta katotaan onko suoria , mappia käyttäen..
 	//katsoo onko suora jokaiselle mahdolliselle pokerikädlle
@@ -82,10 +133,15 @@ int main()
 						k[2] = (k2 % 13) + 2;
 						k[3] = (k3 % 13) + 2;
 						k[4] = (k4 % 13) + 2;
-						if (is_straight(k))
-							++suoria;
+						/*if (is_straight(k))
+							++suoria;*/
 						/*if (is_straight_bit(k))
 							++suoria;*/
+						if (new_straight_bitcheck(k))
+						{
+							suoria++;
+						}
+						
 					}
 				}
 			}
@@ -175,6 +231,8 @@ inline int save_hand_to_map(int* k)
 
 	/*std::cout << "indexi on " << first_index << "\n";*/
 
+	//ei pitäisi loopata, pitäisi vaan kattoa suoraan indeksejä... duh.. Eli loop unroll kannattaa käyttää jos voi!
+	// 
 	////pienin arvo on jo niin suuri, ettei voida saada suoraa
 	if (first_index > 10) { return 0; }
 
@@ -210,6 +268,8 @@ inline int is_straight_bit(int* k)
 
 }
 
+
+
 void Printtaa(int* k, int size)
 {
 	std::sort(k, k + size);
@@ -221,5 +281,20 @@ void Printtaa(int* k, int size)
 	std::cout << std::endl;
 }
 #pragma endregion bitmap_yrityksia
+
+
+inline int new_straight_bitcheck(int* k)
+{
+
+	uint16_t hand = 0;
+
+	hand |= (0x1 << (k[0] - 1));  //-1 because my index 0 = 0, and index 1 = 1, "normally" it would be hand |= (0x1 << (k[0] - 2)); and so on..
+	hand |= (0x1 << (k[1] - 1));
+	hand |= (0x1 << (k[2] - 1));
+	hand |= (0x1 << (k[3] - 1));
+	hand |= (0x1 << (k[4] - 1));
+
+	return hand_table[hand];
+}
 
 // täyskäsi ja pari.. siinä bittitaulukossa on silloin vain kaksi bittiä päällä! kahta eri arvoa siis..
