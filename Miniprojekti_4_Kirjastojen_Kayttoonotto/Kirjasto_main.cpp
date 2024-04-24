@@ -9,12 +9,17 @@
 
 
 #define DEG_TO_RAD(X)	((X) * ((float)M_PI / 180.0f))
+#define WWIDTH  (600)
+#define WHEIGHT  (400)
+#define NUM_BOXES 200
+
+b2Body* boxes[NUM_BOXES];
 
 int main(int argc, char* argv[])
 {
     //create gravity
-    b2Vec2 gravity(0.0f, 9.2f);
-
+    b2Vec2 gravity(0.f, 9.2f);
+    
     //greate world, with gravity
     b2World world(gravity);
         
@@ -45,13 +50,16 @@ int main(int argc, char* argv[])
     fixtureDef.shape = &dynamicBox;
     fixtureDef.density = 1.f;
     fixtureDef.friction = 0.3f;
+    fixtureDef.restitution = 0.7f;
+
+    
 
     //create fixture
     body->CreateFixture(&fixtureDef);
 
 
     //SIMULATING WORLD
-    float timestep = 1.0f / 60.f;
+    float timestep = 1.0f / 30.f;
 
     //iteration times for physics / step
     int32 veloIterations = 7;
@@ -66,7 +74,7 @@ int main(int argc, char* argv[])
     SDL_Window* window = SDL_CreateWindow("Wiindow", // creates a window
         SDL_WINDOWPOS_CENTERED,
         SDL_WINDOWPOS_CENTERED,
-        800, 600, SDL_WINDOW_SHOWN);
+        WWIDTH, WHEIGHT, SDL_WINDOW_SHOWN);
     SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, 0);
 
     SDL_Surface* surface;
@@ -83,6 +91,7 @@ int main(int argc, char* argv[])
     // connects our texture with dest to control position
     SDL_QueryTexture(tex, NULL, NULL, &dest.w, &dest.h);
 
+
     // adjust height and width of our image box.
     dest.w /= 6;
     dest.h /= 6;
@@ -93,7 +102,30 @@ int main(int argc, char* argv[])
     ground.w /= 600;
     ground.h /= 6;
 
-   SDL_SetRenderDrawColor(renderer, 0, 55, 0, 255);
+    // Render each box with the texture
+    for (int i = 0; i < NUM_BOXES; ++i) {
+        // Set the position of each box
+        bodyDef.position.Set(100.f + i, 100.f - i * 7);
+
+        // Create a body for each box
+        boxes[i] = world.CreateBody(&bodyDef);
+
+        // Create polygon-shape for each box
+        b2PolygonShape dynamicBox;
+        dynamicBox.SetAsBox(1.f, 1.f);
+
+        // Set characteristics for each box
+        b2FixtureDef fixtureDef;
+        fixtureDef.shape = &dynamicBox;
+        fixtureDef.density = 1.f;
+        fixtureDef.friction = 0.2f;
+        fixtureDef.restitution = 0.7f;
+
+        // Create fixture for each box
+        boxes[i]->CreateFixture(&fixtureDef);
+
+    }
+
 
     SDL_RenderClear(renderer);
 
@@ -102,8 +134,6 @@ int main(int argc, char* argv[])
     /*SDL_Delay(3000);*/
 
     int close = 0;
-
-
 
     while(!close)
     {
@@ -125,10 +155,26 @@ int main(int argc, char* argv[])
 
         SDL_RenderClear(renderer);
 
+        for (int i = 0; i < NUM_BOXES; ++i) {
+            // Get the position of the current box
+            b2Vec2 position = boxes[i]->GetPosition();
 
+            // Set the destination rectangle for rendering the texture
+            SDL_Rect dest;
+            dest.x = position.x;
+            dest.y = position.y;
+            dest.w = 5; // Adjust the width of the texture as needed
+            dest.h = 5; // Adjust the height of the texture as needed
 
-        dest.x = position.x;
-        dest.y = position.y;
+            // Render the texture at the box's position
+            SDL_RenderCopy(renderer, tex, NULL, &dest);
+        }
+
+        /*dest.x = position.x;
+        dest.y = position.y;*/
+
+        // Render each box with the texture
+        
         /*SDL_RenderCopy(renderer, tex, NULL, &dest);*/
          // Render the texture at the new position and angle
         SDL_RenderCopyEx(renderer, tex, NULL, &dest, angle * (180.f / M_PI),
