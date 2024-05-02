@@ -1,2 +1,4 @@
 ﻿  Big_Data.cpp
   Tehtava_14_KopioKonstruktori_ja_Sijoitusoperaattori.vcxproj -> D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\x64\Debug\Tehtava_14_KopioKonstruktori_ja_Sijoitusoperaattori.exe
+D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\Tehtava_14_KopioKonstruktori_ja_Sijoitusoperaattori\Big_Data.cpp(32): warning C6387: '_memory_pointer' could be '0':  this does not adhere to the specification for the function 'memcpy'. 
+D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\Tehtava_14_KopioKonstruktori_ja_Sijoitusoperaattori\Big_Data.cpp(78): warning C6387: '_memory_pointer' could be '0':  this does not adhere to the specification for the function 'memcpy'. 

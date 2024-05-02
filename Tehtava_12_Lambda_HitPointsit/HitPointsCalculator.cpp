@@ -1,8 +1,14 @@
+
 #include <vector>
 #include <iostream>
 #include <random>
 #include <algorithm>
 #include <functional>
+
+
+/**
+* Viestiä Doxygenille?
+*/
 
 //print values (healthpoints) 
 void PrintVector(const std::vector<int>& Vector)
@@ -18,6 +24,7 @@ void PrintVector(const std::vector<int>& Vector)
 int TakeDamage(int &hitPoints,const int damage)
 {
 		hitPoints = std::max(0, hitPoints-damage);
+		hitPoints++; //fort Testing if returns wrong amount;
 		return hitPoints;
 }
 
@@ -25,6 +32,7 @@ void TakeHundredDamage(int& currentHealth)
 {
 	currentHealth = TakeDamage(currentHealth, 100);
 }
+
 
 void CauseHundredDamageToAll(std::vector<int>& targetHealths)
 {
@@ -34,7 +42,11 @@ void CauseHundredDamageToAll(std::vector<int>& targetHealths)
 }
 
 
-//a function object apparently
+/// <summary>
+/// Causes damage to all targets in Vector
+/// </summary>
+/// <param name="targetHealths"></param> int Vector containing Targets' references 
+/// <param name="damage"></param> int damage, amount of damage
 void CauseDamageToAll(std::vector<int>& targetHealths, int damage)
 {
 	std::cout << "Cause given amount (100) of damage to all\n";

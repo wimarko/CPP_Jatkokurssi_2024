@@ -1,0 +1,1478 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Color::r' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_draw.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Color::{ctor}",
+                  "decoratedName": "??0b2Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Color::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Color::a' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_draw.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Color::{ctor}",
+                  "decoratedName": "??0b2Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Color::a"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Color::g' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_draw.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Color::{ctor}",
+                  "decoratedName": "??0b2Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Color::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Color::b' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_draw.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Color::{ctor}",
+                  "decoratedName": "??0b2Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Color::b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2ChainShape::m_nextVertex' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_chain_shape.h"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2ChainShape::{ctor}",
+                  "decoratedName": "??0b2ChainShape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2ChainShape::m_nextVertex"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2ChainShape::m_prevVertex' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_chain_shape.h"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2ChainShape::{ctor}",
+                  "decoratedName": "??0b2ChainShape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2ChainShape::m_prevVertex"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Shape::m_radius' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_shape.h"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Shape::{ctor}",
+                  "decoratedName": "??0b2Shape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Shape::m_radius"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Shape::m_type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_shape.h"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Shape::{ctor}",
+                  "decoratedName": "??0b2Shape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Shape::m_type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2EdgeShape::m_vertex1' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_edge_shape.h"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2EdgeShape::{ctor}",
+                  "decoratedName": "??0b2EdgeShape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2EdgeShape::m_vertex1"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2EdgeShape::m_vertex2' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_edge_shape.h"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2EdgeShape::{ctor}",
+                  "decoratedName": "??0b2EdgeShape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2EdgeShape::m_vertex2"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_manifold' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_manifold"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_toiCount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_toiCount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_toi' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_toi"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_restitutionThreshold' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_restitutionThreshold"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_flags' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_flags"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_nodeA' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_nodeA"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_friction' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_friction"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_indexB' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_indexB"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_next' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_next"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_indexA' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_indexA"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_nodeB' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_nodeB"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_restitution' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_restitution"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_prev' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_prev"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_tangentSpeed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_tangentSpeed"
+          }
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "Function uses '104200' bytes of stack.  Consider moving some data to heap."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjasto_main.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SDL_main",
+                  "decoratedName": "SDL_main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33519.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_draw.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "678799881785cc172491af928660e18536dc78902d494e4b1242c71843195311"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_chain_shape.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4618edd26733e4d4a551413b3a509728f76fb6f7a248a34a2ca447172e593c9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_shape.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f6584a6eae8ec2701253c9dd2c55c598ae99a7f98c05eb23f09ff8e00883e03b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_edge_shape.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0c0ec3ff5a0c9b6db63119447122c536f3dae7fde9c74a392ed95f26c81ae976"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjastot/Box2D/include/box2d/b2_contact.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9b59dc4db129662d5f1582dd14a3d3b90d49cb442c6b67a0e09be646193dfd5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Miniprojekti_4_Kirjastojen_Kayttoonotto/Kirjasto_main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0b8548b735fe011d47aaed9e43810e22775a8d38da24b65087864d5a2c366594"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/box2d.h"
+          },
+          "hashes": {
+            "sha-256": "59c1e8a82f323245fde1aa3c9cd14da8016e92cebd053d45bca3d5aabd7c8215"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_settings.h"
+          },
+          "hashes": {
+            "sha-256": "6d303f12328152cc415742863acd3df5f3e1ce0b025f39db53e6d8901344096a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_types.h"
+          },
+          "hashes": {
+            "sha-256": "8a5d7006c318e7b07823357d8e58d4e8e38cd2043812efd35f211f21bdfca563"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_api.h"
+          },
+          "hashes": {
+            "sha-256": "17d82434dfe0dbea7a164ae4135c2ab3c23d808a441bfa6483bbe178db0e7499"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_common.h"
+          },
+          "hashes": {
+            "sha-256": "daffdec44be6006faa468d2c802fc60d1e085bf66e591d1723298b75345f3fac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_math.h"
+          },
+          "hashes": {
+            "sha-256": "cd48114afc6da6a5039acbb1f3b07d4512704e4098bdccabb32f914529085ca6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_timer.h"
+          },
+          "hashes": {
+            "sha-256": "f44eff4f97f8f6a80f964f1e1944232bba431504d13fbd6616aa35efe7eb8a39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_collision.h"
+          },
+          "hashes": {
+            "sha-256": "b2375263b38da6acc2e2444e8591c103570fb63a9fe106f0726b7b56fa0ad900"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_circle_shape.h"
+          },
+          "hashes": {
+            "sha-256": "40dc35432ac45d7e6df41e70194153247d18079e05991179edba58babb7d1a0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_polygon_shape.h"
+          },
+          "hashes": {
+            "sha-256": "6132a6b7e6d4bc7e5555f6f25011e36b1b41a973b4e654ce9192c69bbda99bfd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_broad_phase.h"
+          },
+          "hashes": {
+            "sha-256": "df66b0bd5850a8d52994c5a24ddf36b5db6fc1b14f2acc6f947d8893cf648be7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_dynamic_tree.h"
+          },
+          "hashes": {
+            "sha-256": "3171222f6e64a2150b5a763a6ceb674f95d1bd85b0d8d8748e1c4f52b35f3c2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_growable_stack.h"
+          },
+          "hashes": {
+            "sha-256": "cd61d7e6c61c1f08ffef94ab73e988ad2be6e687e24b7113ebce960da784af8e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_body.h"
+          },
+          "hashes": {
+            "sha-256": "c9865e511cacb4185be0f25155d6613e72edb82fab0617d127f57ac4533434d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_fixture.h"
+          },
+          "hashes": {
+            "sha-256": "d66031320fb9c3928aa2c3c08ca169e1059f59dffaffee1c880c8eb7662ceb7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_time_step.h"
+          },
+          "hashes": {
+            "sha-256": "f77d28d2dc42dc275b303b2722b0870eccf54d34de415877357ffa36f21157d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_world.h"
+          },
+          "hashes": {
+            "sha-256": "5b16898c44bb4a2c6152fd2098bf683b85bc3ba279494948d901abfe9e28f3eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_block_allocator.h"
+          },
+          "hashes": {
+            "sha-256": "f472e5b9136753adc812693aab97243b6e41b2413cd94126da969773504d5a4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_contact_manager.h"
+          },
+          "hashes": {
+            "sha-256": "81f2c035dc990e65587c2ce208164512cca4b1f2d935ad064f64e6e73b8282af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_stack_allocator.h"
+          },
+          "hashes": {
+            "sha-256": "0625b8d50ee540f753c7e480f46801752987dc378e839f0882e42b89981d973d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_world_callbacks.h"
+          },
+          "hashes": {
+            "sha-256": "3c45fecd0df64de577985a19d1a8b5a237183ee1285cca6ca7a1c7e07960c922"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_distance_joint.h"
+          },
+          "hashes": {
+            "sha-256": "0f60006f0a9e2d755daeb00ee39889e0a6a343767c4d43abab0ee46caa16a8bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_joint.h"
+          },
+          "hashes": {
+            "sha-256": "a91b623ba6b6796fcecdc6044ac66ac665cf96760955dafbcb46a78d79b7109d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_friction_joint.h"
+          },
+          "hashes": {
+            "sha-256": "1814f5dd2b7684461e337acb713f3f5bfae639cdbfc9e9f30de4f9f61fe0311b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_gear_joint.h"
+          },
+          "hashes": {
+            "sha-256": "6df0596898c1f1d5f85275e54a614f262967c97b58af40ee63a2095120a419e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_motor_joint.h"
+          },
+          "hashes": {
+            "sha-256": "0630398b77d01a5fcb2a4b79ed536e844087394d23e46a0427d954cedf47fea5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_mouse_joint.h"
+          },
+          "hashes": {
+            "sha-256": "355e591dd4ae42f89b6fa81872d012cba9de99d0fc0030fc35e592013bf1f5cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_prismatic_joint.h"
+          },
+          "hashes": {
+            "sha-256": "1fea3b9218d2cca3526a35c98dd3bb9cb979abebbedb3b2e636289d37e32725e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_pulley_joint.h"
+          },
+          "hashes": {
+            "sha-256": "b9378adc4759a8fca88cbc42a7f09cca4b0251dcd984224366ea9815c7aeb7a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_revolute_joint.h"
+          },
+          "hashes": {
+            "sha-256": "7b8b4273dbcba53a04630feeedb83d4583c0dab60cb4c6dd2a7a210d89b29398"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_weld_joint.h"
+          },
+          "hashes": {
+            "sha-256": "2a9be9b0e85d222fb9728a59cd9fcfa9f7273f8da4ce46c8255e9fa107bc223d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/box2d/include/box2d/b2_wheel_joint.h"
+          },
+          "hashes": {
+            "sha-256": "d94512bef83a2c3dfc013e1fcc17414f6c859c2fb17ab5809ab25b92f346845d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl.h"
+          },
+          "hashes": {
+            "sha-256": "9b44784b3728c508c9e5f875d59cbd6e791305838685f0bc706ab13faf529c2c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_main.h"
+          },
+          "hashes": {
+            "sha-256": "2587a010ae9be638f94a9a174f7ebaab25aa9c61132d652549d16161b02194de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "sha-256": "537a2149917e1dd955d048a83224cda31cdf3f5e8ce52c61ae8393d0e3c3b19a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_config.h"
+          },
+          "hashes": {
+            "sha-256": "cfe9074a4cdb28a9b2683fd5223c27d3200f6cca9a8fc60d4798c8f73820ad19"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_platform.h"
+          },
+          "hashes": {
+            "sha-256": "49719f9fc6b4ec8c478154aee00fd580b5fdb148aaaf4b0e9a5944229c22b36f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/begin_code.h"
+          },
+          "hashes": {
+            "sha-256": "f2e4e2043b1ffdc439fb9bad0f5c826a443c917efcf1a65440580a21ddf75630"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/close_code.h"
+          },
+          "hashes": {
+            "sha-256": "65ccca0ed3df869fca01a0333bac2979e538235cf43e7f858874e6595d781a53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_assert.h"
+          },
+          "hashes": {
+            "sha-256": "8b8b5ee4f129ce8c6df66579ccce30fa76a79c5b21a6a4b23b3d66e55696c4f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "sha-256": "3392e68920800cd69cc1fb3cd35b385968b369d9f29115dee3010432f29ce90c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_audio.h"
+          },
+          "hashes": {
+            "sha-256": "f806ae6f277d699382e3f9a220b3410abc815accca0aecf2630f0164e69ed573"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_error.h"
+          },
+          "hashes": {
+            "sha-256": "96d3614302de6ec6c5233280cb0d633efacb0d01bb1065d002f6438f8420dc46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_endian.h"
+          },
+          "hashes": {
+            "sha-256": "795d58bf1e8fe41f775b3522c6544b534a631bcde550220e61d6b644c874d8b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "sha-256": "98aaa71f1720d8118eca0f871626928cf3616dd71fc9601e03c5b367c16d229d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_thread.h"
+          },
+          "hashes": {
+            "sha-256": "820fdf939a77fc97a86e44230145f7399e08f7b9617b3135da30cc2d55f41ab3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "sha-256": "2410098c913a5729f21449c977f9ed4e2ec76017258e9b7d92bccbdfbe6a3e54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "sha-256": "90b3c12208b87cbf04b67cd68f8c8b693e78ed8a170d15e01fe7bca747f5aabc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "sha-256": "dd297ac1f322a639c2b8df857ae61ec4866f73e69e88e803d6e566a2fd05559e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_events.h"
+          },
+          "hashes": {
+            "sha-256": "d1ca0802da17f26395219e7ea668518b18bb26d1e64a93324c18210c528cc2b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_video.h"
+          },
+          "hashes": {
+            "sha-256": "c2b114457cffee2f48a0ce75d8d1b708d912f57873b079888d471a4ae6872c5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "sha-256": "09c263f1b5a9cabab98423199d31b6a2b237e74086ccd38c9d7f48d49642151b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_rect.h"
+          },
+          "hashes": {
+            "sha-256": "b2cee9a572c06c661d4ad35ee408a82a3f02bee7cad9992f6d2646b41d0d3d41"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_surface.h"
+          },
+          "hashes": {
+            "sha-256": "ea332a5a911b7530bdcc3b48c0ce22f9273e6ba46108fc961f2f3d8431b6e3ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "sha-256": "52fa44e8b630587addadc3704fb9329344baddcab29521966059b46450496c34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "sha-256": "301fbc5b05dfc115c23f9c52b4aa8537acae9675e4770279ca9e324512d3a9b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "sha-256": "6b228c067cd69ac76de5c2b7185793a92c3e32d702c20c23fe0c41f132b37cfa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "sha-256": "bca1fab0fb2ba2d7ab22fb658984c57d3d4d16fa60444679ae07875d10bba1ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "sha-256": "4ec7ff20b753d33b3ca76d5e90a2fa3a493f5a32fd9b90c22409cb09d10bacac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "sha-256": "dcad307b3b5f60883c0c95574ac6288744b05c9215426c2dac7b69b3b310e931"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_guid.h"
+          },
+          "hashes": {
+            "sha-256": "800851db004bf529957839455f8bae897eb813a2791f10b58d3777e00ca066f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "sha-256": "7d057864e80b54650b0942661e7b32f44b84766c0b5a66af751a52a1c37433b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "sha-256": "d0c1b8dbf6a9c15fb0d529114072f347044bbf3207bbded27f390cb9bb1e0c4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_quit.h"
+          },
+          "hashes": {
+            "sha-256": "f983e777ec294a99310490f52877a16a9ae517e41182be46eeb3d5eb29bb4225"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "sha-256": "a363dabaeef0df9ed19f5e571cb3c926f81ed97ef1ff3fa60b57b842a6f5df03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_touch.h"
+          },
+          "hashes": {
+            "sha-256": "a5f6c8b944e6148ce169acee1bc1d992030f4d1f3c94932034d654e44cf70b66"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "sha-256": "20f1373edaddfe3f0af722ba49137e08d1e9dfd46bcd391e3dc96bc59b90bb07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "sha-256": "1814a3759a7c1d4ede53bc1c9c560fc66ebd51c940a92bd42e40e8b5f8e72680"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_hidapi.h"
+          },
+          "hashes": {
+            "sha-256": "1eb71afb302c6fc3b16aab59e36cfec3b3943ef403adaba2851cc51bca90b292"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_hints.h"
+          },
+          "hashes": {
+            "sha-256": "de56b4cb766dfe102ec86a3ad8b68d820c260e797a5ad0380b8d0e53f574ed7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "sha-256": "9902372d8b43258cadadc52149a1e42f09aad277114f472a037e5e4f42d46643"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_log.h"
+          },
+          "hashes": {
+            "sha-256": "65521ae74e09085121b4b5a99cea4fce560da8320b27c4cd8ffb48d478fe1641"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "sha-256": "e02766a8bc8f5688321a96277e4f88f28df7b33b32a7921cbed4156dd04cb179"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_metal.h"
+          },
+          "hashes": {
+            "sha-256": "91a57684759a012bb018cb3dac8fed1d491e8a4d8a3c475498f0714a1e457bb7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_power.h"
+          },
+          "hashes": {
+            "sha-256": "9bbbeef450e95e28cadafc5c20090e29f553bb5fc44c493f81d485e6ce59f292"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_render.h"
+          },
+          "hashes": {
+            "sha-256": "db344239e5aeddc749876383dd5751fb06a95a96c1e687ce3e9f471beedbd106"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_shape.h"
+          },
+          "hashes": {
+            "sha-256": "de29e9ff6f8511ccc17fd1f7327bed208a44592c970736eab339fe4fb63a8788"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_system.h"
+          },
+          "hashes": {
+            "sha-256": "bf9861c0e16659278fec23acd4f54deccee042eb0ecdc729d785b767f1e3973e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_timer.h"
+          },
+          "hashes": {
+            "sha-256": "b49f9959c800d06c6298d1be05ddc67996bc0a9e398db0f26218a50c83826b87"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_version.h"
+          },
+          "hashes": {
+            "sha-256": "9899b1d715d16c2c11dd25013a53f41ec49b03020450531fe89193b22f5cf7ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_locale.h"
+          },
+          "hashes": {
+            "sha-256": "0baca9314171d31d72e03953a06c2f4ffb879a3c6433b4ce953482fc97a5aa01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl/include/sdl_misc.h"
+          },
+          "hashes": {
+            "sha-256": "6ded0024c254d2acacb309d06a25cbed2f297a405290e663fcece6a28351e2b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_4_kirjastojen_kayttoonotto/kirjastot/sdl_image/include/sdl_image.h"
+          },
+          "hashes": {
+            "sha-256": "41e8529428376479c77d5cdd085b85ef1fab3c31e81349cd6dc5adc9d83c3367"
+          }
+        }
+      ]
+    }
+  ]
+}

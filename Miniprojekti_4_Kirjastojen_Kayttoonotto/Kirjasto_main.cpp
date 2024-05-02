@@ -93,8 +93,8 @@ int main(int argc, char* argv[])
 
 
     // adjust height and width of our image box.
-    dest.w /= 6;
-    dest.h /= 6;
+    dest.w /= 20;
+    dest.h /= 20;
 
     SDL_Rect ground;
     SDL_QueryTexture(gtex, NULL, NULL, &ground.w, &ground.h);
@@ -112,7 +112,7 @@ int main(int argc, char* argv[])
 
         // Create polygon-shape for each box
         b2PolygonShape dynamicBox;
-        dynamicBox.SetAsBox(1.f, 1.f);
+        dynamicBox.SetAsBox(10.f, 10.f);
 
         // Set characteristics for each box
         b2FixtureDef fixtureDef;
@@ -151,7 +151,7 @@ int main(int argc, char* argv[])
         world.Step(timestep, veloIterations, posIterations);
         b2Vec2 position = body->GetPosition();
         float angle = body->GetAngle();
-        printf("%4.2f %4.2f %4.2f\n", position.x, position.y, angle);
+       /* printf("%4.2f %4.2f %4.2f\n", position.x, position.y, angle);*/
 
         SDL_RenderClear(renderer);
 
@@ -163,8 +163,8 @@ int main(int argc, char* argv[])
             SDL_Rect dest;
             dest.x = position.x;
             dest.y = position.y;
-            dest.w = 5; // Adjust the width of the texture as needed
-            dest.h = 5; // Adjust the height of the texture as needed
+            dest.w = 20; // Adjust the width of the texture as needed
+            dest.h = 20; // Adjust the height of the texture as needed
 
             // Render the texture at the box's position
             SDL_RenderCopy(renderer, tex, NULL, &dest);

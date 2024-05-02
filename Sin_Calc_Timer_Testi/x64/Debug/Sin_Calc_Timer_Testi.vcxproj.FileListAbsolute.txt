@@ -1,0 +1,2 @@
+D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\x64\Debug\Sin_Calc_Timer_Testi.exe.lastcodeanalysissucceeded
+D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\Sin_Calc_Timer_Testi\x64\Debug\NativeCodeAnalysis.read.1.tlog

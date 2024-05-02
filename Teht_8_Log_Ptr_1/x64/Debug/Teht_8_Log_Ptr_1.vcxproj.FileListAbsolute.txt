@@ -1,0 +1,2 @@
+D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\x64\Debug\Tehtava_8_Log_Ptr_1.exe.lastcodeanalysissucceeded
+D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\Teht_8_Log_Ptr_1\x64\Debug\NativeCodeAnalysis.read.1.tlog

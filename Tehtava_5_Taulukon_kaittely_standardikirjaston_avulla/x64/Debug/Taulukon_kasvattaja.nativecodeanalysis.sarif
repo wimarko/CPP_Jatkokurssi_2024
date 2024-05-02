@@ -1,0 +1,63 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "Function uses '444492' bytes of stack.  Consider moving some data to heap."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Tehtava_5_Taulukon_kaittely_standardikirjaston_avulla/Taulukon_kasvattaja.cpp"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33519.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Tehtava_5_Taulukon_kaittely_standardikirjaston_avulla/Taulukon_kasvattaja.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "119693624a03aa94b3d710063cf5bb9dc235ea93b67050b4f6b68795cbd83db6"
+          }
+        }
+      ]
+    }
+  ]
+}

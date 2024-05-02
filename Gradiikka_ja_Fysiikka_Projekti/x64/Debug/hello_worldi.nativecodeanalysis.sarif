@@ -1,0 +1,1070 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Color::r' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_draw.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Color::{ctor}",
+                  "decoratedName": "??0b2Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Color::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Color::a' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_draw.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Color::{ctor}",
+                  "decoratedName": "??0b2Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Color::a"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Color::g' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_draw.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Color::{ctor}",
+                  "decoratedName": "??0b2Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Color::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Color::b' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_draw.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Color::{ctor}",
+                  "decoratedName": "??0b2Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Color::b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2ChainShape::m_nextVertex' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_chain_shape.h"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2ChainShape::{ctor}",
+                  "decoratedName": "??0b2ChainShape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2ChainShape::m_nextVertex"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2ChainShape::m_prevVertex' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_chain_shape.h"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2ChainShape::{ctor}",
+                  "decoratedName": "??0b2ChainShape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2ChainShape::m_prevVertex"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Shape::m_type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_shape.h"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Shape::{ctor}",
+                  "decoratedName": "??0b2Shape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Shape::m_type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Shape::m_radius' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_shape.h"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Shape::{ctor}",
+                  "decoratedName": "??0b2Shape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Shape::m_radius"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2EdgeShape::m_vertex1' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_edge_shape.h"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2EdgeShape::{ctor}",
+                  "decoratedName": "??0b2EdgeShape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2EdgeShape::m_vertex1"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2EdgeShape::m_vertex2' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_edge_shape.h"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2EdgeShape::{ctor}",
+                  "decoratedName": "??0b2EdgeShape@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2EdgeShape::m_vertex2"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_flags' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_flags"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_nodeB' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_nodeB"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_manifold' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_manifold"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_nodeA' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_nodeA"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_indexB' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_indexB"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_restitution' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_restitution"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_toi' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_toi"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_toiCount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_toiCount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_next' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_next"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_restitutionThreshold' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_restitutionThreshold"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_prev' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_prev"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_tangentSpeed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_tangentSpeed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_indexA' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_indexA"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'b2Contact::m_friction' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "b2Contact::{ctor}",
+                  "decoratedName": "??0b2Contact@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "b2Contact::m_friction"
+          }
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "Function uses '103840' bytes of stack.  Consider moving some data to heap."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Gradiikka_ja_Fysiikka_Projekti/hello_worldi.cpp"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33519.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_draw.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "678799881785cc172491af928660e18536dc78902d494e4b1242c71843195311"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_chain_shape.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4618edd26733e4d4a551413b3a509728f76fb6f7a248a34a2ca447172e593c9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_shape.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f6584a6eae8ec2701253c9dd2c55c598ae99a7f98c05eb23f09ff8e00883e03b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_edge_shape.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0c0ec3ff5a0c9b6db63119447122c536f3dae7fde9c74a392ed95f26c81ae976"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/box2d-main/include/Box2D/b2_contact.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9b59dc4db129662d5f1582dd14a3d3b90d49cb442c6b67a0e09be646193dfd5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/METROPOLIA/2024/CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009/CPP_KOODIT/Tehtavia_CPP_Jatkokurssi/Gradiikka_ja_Fysiikka_Projekti/hello_worldi.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "bd467d6ce2ce62a6d82954fc02b07ab5dc5a2327e1436bf95b03684dfdc7a073"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/box2d.h"
+          },
+          "hashes": {
+            "sha-256": "59c1e8a82f323245fde1aa3c9cd14da8016e92cebd053d45bca3d5aabd7c8215"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_settings.h"
+          },
+          "hashes": {
+            "sha-256": "6d303f12328152cc415742863acd3df5f3e1ce0b025f39db53e6d8901344096a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_types.h"
+          },
+          "hashes": {
+            "sha-256": "8a5d7006c318e7b07823357d8e58d4e8e38cd2043812efd35f211f21bdfca563"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_api.h"
+          },
+          "hashes": {
+            "sha-256": "17d82434dfe0dbea7a164ae4135c2ab3c23d808a441bfa6483bbe178db0e7499"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_common.h"
+          },
+          "hashes": {
+            "sha-256": "daffdec44be6006faa468d2c802fc60d1e085bf66e591d1723298b75345f3fac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_math.h"
+          },
+          "hashes": {
+            "sha-256": "cd48114afc6da6a5039acbb1f3b07d4512704e4098bdccabb32f914529085ca6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_timer.h"
+          },
+          "hashes": {
+            "sha-256": "f44eff4f97f8f6a80f964f1e1944232bba431504d13fbd6616aa35efe7eb8a39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_collision.h"
+          },
+          "hashes": {
+            "sha-256": "b2375263b38da6acc2e2444e8591c103570fb63a9fe106f0726b7b56fa0ad900"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_circle_shape.h"
+          },
+          "hashes": {
+            "sha-256": "40dc35432ac45d7e6df41e70194153247d18079e05991179edba58babb7d1a0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_polygon_shape.h"
+          },
+          "hashes": {
+            "sha-256": "6132a6b7e6d4bc7e5555f6f25011e36b1b41a973b4e654ce9192c69bbda99bfd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_broad_phase.h"
+          },
+          "hashes": {
+            "sha-256": "df66b0bd5850a8d52994c5a24ddf36b5db6fc1b14f2acc6f947d8893cf648be7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_dynamic_tree.h"
+          },
+          "hashes": {
+            "sha-256": "3171222f6e64a2150b5a763a6ceb674f95d1bd85b0d8d8748e1c4f52b35f3c2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_growable_stack.h"
+          },
+          "hashes": {
+            "sha-256": "cd61d7e6c61c1f08ffef94ab73e988ad2be6e687e24b7113ebce960da784af8e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_body.h"
+          },
+          "hashes": {
+            "sha-256": "c9865e511cacb4185be0f25155d6613e72edb82fab0617d127f57ac4533434d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_fixture.h"
+          },
+          "hashes": {
+            "sha-256": "d66031320fb9c3928aa2c3c08ca169e1059f59dffaffee1c880c8eb7662ceb7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_time_step.h"
+          },
+          "hashes": {
+            "sha-256": "f77d28d2dc42dc275b303b2722b0870eccf54d34de415877357ffa36f21157d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_world.h"
+          },
+          "hashes": {
+            "sha-256": "5b16898c44bb4a2c6152fd2098bf683b85bc3ba279494948d901abfe9e28f3eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_block_allocator.h"
+          },
+          "hashes": {
+            "sha-256": "f472e5b9136753adc812693aab97243b6e41b2413cd94126da969773504d5a4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_contact_manager.h"
+          },
+          "hashes": {
+            "sha-256": "81f2c035dc990e65587c2ce208164512cca4b1f2d935ad064f64e6e73b8282af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_stack_allocator.h"
+          },
+          "hashes": {
+            "sha-256": "0625b8d50ee540f753c7e480f46801752987dc378e839f0882e42b89981d973d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_world_callbacks.h"
+          },
+          "hashes": {
+            "sha-256": "3c45fecd0df64de577985a19d1a8b5a237183ee1285cca6ca7a1c7e07960c922"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_distance_joint.h"
+          },
+          "hashes": {
+            "sha-256": "0f60006f0a9e2d755daeb00ee39889e0a6a343767c4d43abab0ee46caa16a8bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_joint.h"
+          },
+          "hashes": {
+            "sha-256": "a91b623ba6b6796fcecdc6044ac66ac665cf96760955dafbcb46a78d79b7109d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_friction_joint.h"
+          },
+          "hashes": {
+            "sha-256": "1814f5dd2b7684461e337acb713f3f5bfae639cdbfc9e9f30de4f9f61fe0311b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_gear_joint.h"
+          },
+          "hashes": {
+            "sha-256": "6df0596898c1f1d5f85275e54a614f262967c97b58af40ee63a2095120a419e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_motor_joint.h"
+          },
+          "hashes": {
+            "sha-256": "0630398b77d01a5fcb2a4b79ed536e844087394d23e46a0427d954cedf47fea5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_mouse_joint.h"
+          },
+          "hashes": {
+            "sha-256": "355e591dd4ae42f89b6fa81872d012cba9de99d0fc0030fc35e592013bf1f5cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_prismatic_joint.h"
+          },
+          "hashes": {
+            "sha-256": "1fea3b9218d2cca3526a35c98dd3bb9cb979abebbedb3b2e636289d37e32725e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_pulley_joint.h"
+          },
+          "hashes": {
+            "sha-256": "b9378adc4759a8fca88cbc42a7f09cca4b0251dcd984224366ea9815c7aeb7a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_revolute_joint.h"
+          },
+          "hashes": {
+            "sha-256": "7b8b4273dbcba53a04630feeedb83d4583c0dab60cb4c6dd2a7a210d89b29398"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_weld_joint.h"
+          },
+          "hashes": {
+            "sha-256": "2a9be9b0e85d222fb9728a59cd9fcfa9f7273f8da4ce46c8255e9fa107bc223d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/box2d-main/include/box2d/b2_wheel_joint.h"
+          },
+          "hashes": {
+            "sha-256": "d94512bef83a2c3dfc013e1fcc17414f6c859c2fb17ab5809ab25b92f346845d"
+          }
+        }
+      ]
+    }
+  ]
+}

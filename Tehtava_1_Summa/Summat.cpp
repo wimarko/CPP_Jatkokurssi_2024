@@ -5,11 +5,18 @@
 #include <mutex>
 
 
-
+/// <summary>
+/// initialising calculated sum as 0
+/// </summary>
 int calculated_sum = 0;
 //std::mutex g_i_mutex;
 
-//count sum of certain part of Vector
+/// <summary>
+/// count sum of certain parts of a larger vector, give start and end índexes as parameters
+/// </summary>
+/// <param name="Vector"></param> vector that includes integers
+/// <param name="start"></param> first index , starting the wanted vector
+/// <param name="end"></param>	the end index (exluded from this vector)
 void count_sum(std::vector<int> &Vector,const int start, const int end)
 {
 	int sum = 0;
@@ -22,7 +29,13 @@ void count_sum(std::vector<int> &Vector,const int start, const int end)
 	calculated_sum += sum;
 }
 
-
+/// <summary>
+/// The main function creates random numbers, adds them to vector.
+/// Then it divides the integers in the vector to different vectors
+///  and counts the sums of them. Then Adds all sums together,
+///  and sees if the sum is correct
+/// </summary>
+/// <returns></returns>
 int main() {
 	// Seed for random number generation, thanks chatgpt
 	std::srand(static_cast<int>(std::time(nullptr)));

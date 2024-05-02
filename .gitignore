@@ -34,8 +34,6 @@
 *.visdx
 *.ipx
 *.log
-*.vcxproj
-*.vcxproj.*
 *.idb
 *.recipe
 *.ilk

@@ -1,0 +1,35 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33519.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_3_tilajaaika_pokeri/tila_ja_aika_pokeri.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "fc88dd0fb6eb4d9ef92eea341651fadcb29c5e3eadfe5c2f85bc08b17178b894"
+          }
+        }
+      ]
+    }
+  ]
+}

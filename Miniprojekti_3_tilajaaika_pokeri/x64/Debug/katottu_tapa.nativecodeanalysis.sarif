@@ -1,0 +1,35 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33519.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/miniprojekti_3_tilajaaika_pokeri/katottu_tapa.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "9378971cfcefd5008dfb258c32e30d802a5e42bc86739401d2eb431071b766b3"
+          }
+        }
+      ]
+    }
+  ]
+}

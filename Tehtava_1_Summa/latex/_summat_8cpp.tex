@@ -1,0 +1,73 @@
+\doxysection{D\+:/\+METROPOLIA/2024/\+CPP-\/\+Ohjelmoinnin\+\_\+\+Jatkokurssi\+\_\+\+TX00\+CR53-\/3009/\+CPP\+\_\+\+KOODIT/\+Tehtavia\+\_\+\+CPP\+\_\+\+Jatkokurssi/\+Tehtava\+\_\+1\+\_\+\+Summa/\+Summat.cpp File Reference}
+\label{_summat_8cpp}\index{D:/METROPOLIA/2024/CPP-\/Ohjelmoinnin\_Jatkokurssi\_TX00CR53-\/3009/CPP\_KOODIT/Tehtavia\_CPP\_Jatkokurssi/Tehtava\_1\_Summa/Summat.cpp@{D:/METROPOLIA/2024/CPP-\/Ohjelmoinnin\_Jatkokurssi\_TX00CR53-\/3009/CPP\_KOODIT/Tehtavia\_CPP\_Jatkokurssi/Tehtava\_1\_Summa/Summat.cpp}}
+{\ttfamily \#include $<$random$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+{\ttfamily \#include $<$mutex$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ count\+\_\+sum} (std\+::vector$<$ int $>$ \&Vector, const int start, const int end)
+\begin{DoxyCompactList}\small\item\em count sum of certain parts of a larger vector, give start and end índexes as parameters \end{DoxyCompactList}\item 
+int \textbf{ main} ()
+\begin{DoxyCompactList}\small\item\em The main Function Creates randomn numbers, adds them to vector. Then it divides the integers in the vector to different vectors and counts the sums of them. Then Adds all sums together, and sees if the sum is correct. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ calculated\+\_\+sum} = 0
+\begin{DoxyCompactList}\small\item\em initialising calculated sum as 0 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\label{_summat_8cpp_a44dc3d16793f288397b6e763e7e479f6} 
+\index{Summat.cpp@{Summat.cpp}!count\_sum@{count\_sum}}
+\index{count\_sum@{count\_sum}!Summat.cpp@{Summat.cpp}}
+\doxysubsubsection{count\_sum()}
+{\footnotesize\ttfamily void count\+\_\+sum (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$ \&}]{Vector,  }\item[{const int}]{start,  }\item[{const int}]{end }\end{DoxyParamCaption})}
+
+
+
+count sum of certain parts of a larger vector, give start and end índexes as parameters 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Vector} & \\
+\hline
+\end{DoxyParams}
+vector that includes integers 
+\begin{DoxyParams}{Parameters}
+{\em start} & \\
+\hline
+\end{DoxyParams}
+first index , starting the wanted vector 
+\begin{DoxyParams}{Parameters}
+{\em end} & \\
+\hline
+\end{DoxyParams}
+the end index (exluded from this vector) \label{_summat_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{Summat.cpp@{Summat.cpp}!main@{main}}
+\index{main@{main}!Summat.cpp@{Summat.cpp}}
+\doxysubsubsection{main()}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The main Function Creates randomn numbers, adds them to vector. Then it divides the integers in the vector to different vectors and counts the sums of them. Then Adds all sums together, and sees if the sum is correct. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\doxysubsection{Variable Documentation}
+\label{_summat_8cpp_a159f5db94f15cb4ea7ccfee6dee4a6d9} 
+\index{Summat.cpp@{Summat.cpp}!calculated\_sum@{calculated\_sum}}
+\index{calculated\_sum@{calculated\_sum}!Summat.cpp@{Summat.cpp}}
+\doxysubsubsection{calculated\_sum}
+{\footnotesize\ttfamily int calculated\+\_\+sum = 0}
+
+
+
+initialising calculated sum as 0 
+

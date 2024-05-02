@@ -1,3 +1,4 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Tehtava_5_Taulukon_kaittely_standardikirjaston_avulla.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Taulukon_kasvattaja.cpp
   Tehtava_5_Taulukon_kaittely_standardikirjaston_avulla.vcxproj -> D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\x64\Debug\Tehtava_5_Taulukon_kasittely_standardikirjaston_avulla.exe
+D:\METROPOLIA\2024\CPP-Ohjelmoinnin_Jatkokurssi_TX00CR53-3009\CPP_KOODIT\Tehtavia_CPP_Jatkokurssi\Tehtava_5_Taulukon_kaittely_standardikirjaston_avulla\Taulukon_kasvattaja.cpp(62): warning C6262: Function uses '444492' bytes of stack.  Consider moving some data to heap.

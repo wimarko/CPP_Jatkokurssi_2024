@@ -38,6 +38,7 @@ int main()
 	take.join();
 
 	std::cout << "Account: " << account << "\n"; //should be 0
+	std::cout << "Account should be: 0! - equal puts and takes\n";
 
 	return 0;
 }

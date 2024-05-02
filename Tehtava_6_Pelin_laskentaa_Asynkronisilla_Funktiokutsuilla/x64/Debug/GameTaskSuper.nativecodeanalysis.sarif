@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33519.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/tehtava_6_pelin_laskentaa_asynkronisilla_funktiokutsuilla/gametasksuper.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "87a37955e5e9678e8bbd48226dfa474ceeaf70e6103f12b78772baca7b77d401"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/metropolia/2024/cpp-ohjelmoinnin_jatkokurssi_tx00cr53-3009/cpp_koodit/tehtavia_cpp_jatkokurssi/tehtava_6_pelin_laskentaa_asynkronisilla_funktiokutsuilla/gametasksuper.h"
+          },
+          "hashes": {
+            "sha-256": "6312f7d9ab85a9cd2b723fb5eae1e6956e20322c7e28fceaf6eb0c41a5342326"
+          }
+        }
+      ]
+    }
+  ]
+}
